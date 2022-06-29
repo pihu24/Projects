@@ -1,0 +1,157 @@
+body{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family: 'ABeeZee', sans-serif;
+}
+nav{
+  background:rgba(0,0,0,0.8);
+  position: fixed;
+  top:0px;
+  width:100%;
+}
+.nav-bar{
+  display:flex;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f7;
+}
+.nav-bar li{
+  padding:0 2%;
+
+}
+.intro{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:10% 0 2% 0;
+}
+.intro h1,h2,h3,h4,a{
+  margin:5px;
+}
+.intro h1{
+  font-size:3.5rem;
+}
+.buy{
+  margin:7px;
+  border-radius: 24px;
+  background: #0071e3;
+  border:2px solid #0071e3;
+  padding:10px;
+  color:white;
+  width:5rem;
+}
+.intro img{
+  padding:5%;
+}
+.features{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+}
+ .text{
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+.mac-1{
+  margin:2%;
+  text-align: center;
+  color: #1d1d1f;
+}
+.mac-1 img{
+  margin-bottom: 10%;
+}
+.mac-1 div{
+  margin:2% 0;
+}
+.one {
+  padding:20px 0 0 0;
+  font-size:14px;
+  font-weight: lighter;
+  color: #1d1d1f;
+}
+.fas{
+  font-size:30px;
+}
+.offer{
+  display:flex;
+  background:linear-gradient(315deg, #fec6ad 0%, #ffd6ac 47%, #ffebbd 100%);
+  margin:4.5%;
+}
+.image{
+  flex:50%;
+  padding:2%;
+}
+.content{
+  flex:50%;
+  padding:4%;
+  font-size:1.5rem;
+  text-align: center;
+}
+.mics{
+  display:flex;
+  flex-direction: column;
+  margin:4.5%;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.mics-1{
+  text-align:center;
+  padding:2%;
+}
+.meets{
+  display:flex;
+  flex-direction:row;
+  margin:0 4.5%;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+.text-content{
+  padding:2%;
+  text-align: center;
+  flex:50%;
+}
+.image-2{
+  padding:2%;
+  flex:50%;
+}
+.elaborate{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  /* border:2px solid red; */
+  padding:5%;
+}
+.grid{
+  border:2px solid black;
+  font-size: 1rem;
+  text-align: center;
+  padding:7%;
+}
+.beautiful-grid{
+  text-align: center;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  margin:5%;
+}
+.grid-2{
+  padding:5%;
+}
+.beautiful h1{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.back{
+  background: url("https://www.apple.com/v/mac/home/bi/images/overview/bigsur/big_sur__vsy5fc1nv5e2_large.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color:white;
+  text-align: center;
+  font-size: 1.5rem;
+  
+  height:400px;
+}
