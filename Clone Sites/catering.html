@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>G Catering!</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  </head>
+  <style>
+      body{
+        margin:0px;
+        padding:0px;
+        font-family: 'Playfair Display', serif;
+        box-sizing:border-box;
+      }
+      #navbar{
+        background-color:white;
+        color:black;
+        position:fixed;
+        top:0px;
+        width:100%;
+        z-index:1;
+        box-shadow: 5px 10px 10px grey;
+      }
+      .heading{
+        display:flex;
+        list-style-type:none;
+        align-items:center;
+      }
+      .right{
+        position:absolute;
+        right:0px;
+        display:flex;
+        padding:5%;
+      }
+      .right li{
+        padding:5%;
+      }
+      .front{
+        position:relative;
+      }
+      .content{
+        position:absolute;
+        top:90%;
+        left:5%;
+      }
+      #about{
+        display:flex;
+      }
+      #about img{
+        height:40rem;
+        width:30rem;
+        margin:5% 10%;
+        opacity:0.8;
+      }
+      .text1{
+        margin:5% 0;
+        margin-right:5%;
+      }
+      .text1 h1{
+        text-align:center;
+      }
+      .text1 h2{
+        text-align:center;
+      }
+      .text1 span{
+        background-color:gray;
+        padding:2px 4px;
+        font-weight:bold;
+        margin:2px;
+      }
+      .text1 p:last-child{
+        color:gray;
+      }
+      #menu{
+        display:flex;
+
+      }
+      #menu img{
+        height:40rem;
+        width:30rem;
+        margin:5% 10%;
+        opacity:0.8;
+      }
+      .text2{
+        text-align:center;
+      }
+      .text2{
+        padding:4% 10%;
+      }
+      .text2 p{
+        color:gray;
+        font-style:italic;
+        padding:0px;
+        margin:0px;
+      }
+      #contact{
+        padding:0px 10%;
+        text-align:left;
+        background-color:white;
+      }
+      #contact input{
+        border:2px solid white;
+        width:100%;
+        padding:10px;
+        text-align:left;
+        color:gray;
+        border-bottom:2px solid gray;
+        margin:15px 0;
+      }
+      #contact button{
+        padding:10px;
+        width:200px;
+        background-color:pink;
+        color:hotpink;
+        border:2px solid pink;
+        border-radius:12px;
+      }
+      a{
+        color:black;
+        text-decoration:none;
+      }
+      a:hover{
+        color:grey;
+      }
+  </style>
+<body>
+    <nav id="navbar">
+      <ul class="heading">
+        <li>Gourmet Au Catering</li>
+        <div class="right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </div>
+        </ul>
+    </nav>
+
+    <div class="front">
+      <img src="https://www.w3schools.com/w3images/hamburger.jpg" width="100%">
+
+      </img>
+      <div class="content">
+        <h1>LE CATERING</h1>
+      </div>
+      </div>
+      <div id="about">
+        <img src="https://www.w3schools.com/w3images/tablesetting2.jpg">
+
+        </img>
+        <div class="text1">
+          <h1>About Catering</h1>
+          <br>
+          <h2>Tradition since 1889</h2>
+          <p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use<span> seasonal</span> ingredients.</p>
+          <br>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+
+        </div>
+      </div>
+    <hr>
+      <div id="menu">
+
+
+
+        <div class="text2">
+          <h1>Our Menu</h1>
+          <br>
+          <h2>Bread Basket<h2>
+            <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <br>
+            <h2>Honey Almond Granola with Fruits<h2>
+              <p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+              <br>
+              <h2>Belgian Waffle<h2>
+                <p>Vanilla flavored batter with malted flour 7.50</p>
+                <br>
+                <h2>Scrambled eggs<h2>
+                  <p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+
+        </div>
+          <img src="https://www.w3schools.com/w3images/tablesetting.jpg">
+      </div>
+
+    <hr></hr>
+     <div id="contact">
+       <h1>Contact</h1>
+       <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+       <h2>Catering Service, 42nd Living St, 43043 New York, NY</h2>
+       <h3>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</h3>
+       <input type="text" placeholder="Name"></input>
+     <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> -->
+
+       <input type="number" placeholder="How many people" max="10" min="1"></input>
+       <input type="datetime-local"></input>
+       <input type="text" placeholder="Message/Special Requirements"></input>
+       <button>Send Message</button>
+       <br></br>
+     </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

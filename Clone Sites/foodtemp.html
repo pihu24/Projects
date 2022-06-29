@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Monica's Restaurant</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <style>
+  body{
+    margin:0px;
+  //  font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing:border-box;
+
+  }
+  .head{
+    background-color:black;
+    position: fixed;
+
+    width:100%;
+    color:white;
+  }
+  .top{
+    display:flex;
+    justify-content: space-between;
+     align-items: center;
+    list-style-type: none;
+  }
+  .top li{
+    padding:0px 100px;
+  }
+  .dropdowncontent{
+    display: none;
+
+    position: absolute;
+    background-color:white;
+    height:4000000px;
+    width:300px;
+    top:54px;
+    left:0px;
+    color:black;
+    list-style-type: none;
+    text-align: center;
+    padding:20px;
+  }
+  /* .dropdown:hover .dropdowncontent li{
+    padding:20px;
+  } */
+  .foodgrid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    height:700px;
+  //  border:2px solid red;
+    margin:60px 30px 0px 30px;
+
+  }
+  .imgs{
+  //  border:2px solid black;
+    height:449px;
+  }
+  .content{
+    z-index:1;
+    height:300px;
+    text-align:center;
+  }
+
+  .index{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+  }
+  .index li{
+    padding:10px 10px;
+    background-color: grey;
+    margin:5px;
+    font-weight: bold;
+  }
+  .index li:hover{
+    background-color: black;
+    color:white;
+  }
+  .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:10px 20px;
+  }
+  footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    height:50px;
+  }
+  footer p{
+    position: relative;
+    top:15px;
+  }
+  .foodgrid .content h1{
+    color:hotpink;
+  }
+  </style>
+   <body>
+      <div class="head">
+
+         <ul class="top">
+           <li id="dropdown">SideBar
+              <ul id="dropdowncontent">
+                <li>Menu</li>
+                <li>Contact</li>
+              </ul>
+              </li>
+           <li>Food</li>
+           <li>About</li>
+         </ul>
+   </div>
+   <br>
+
+     <div class="foodgrid">
+       <div class="imgs">
+         <img src="https://www.w3schools.com/w3images/sandwich.jpg" height="100%" width="100%">
+       <div class="content">
+         <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+         <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+       </div>
+
+
+       </div>
+       <div class="imgs">
+         <img src="https://www.w3schools.com/w3images/steak.jpg" height="100%" width="100%">
+         <div class="content">
+           <h1>Let Me Tell You About This Steak</h1>
+           <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+         </div>
+       </div>
+       <div class="imgs">
+         <img src="https://www.w3schools.com/w3images/cherries.jpg" height="100%" width="100%">
+           <div class="content">
+            <h1>Cherries, interrupted</h1>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</p>
+          </div>
+        </div>
+       <div class="imgs">
+         <img src="https://www.w3schools.com/w3images/wine.jpg" height="100%" width="100%">
+         <div class="content">
+            <h1>Once Again, Robust Wine and Vegetable Pasta</h1>
+            <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          </div>
+        </div>
+    </div>
+
+<hr>
+
+    <div class="foodgrid" style="height:650px;">
+      <div class="imgs">
+        <img src="https://www.w3schools.com/w3images/popsicle.jpg" height="100%" width="100%">
+      <div class="content">
+        <h1>The Perfect Sandwich, A Real NYC Classic</h1>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+
+
+      </div>
+      <div class="imgs">
+        <img src="https://www.w3schools.com/w3images/salmon.jpg" height="100%" width="100%">
+        <div class="content">
+          <h1>Let Me Tell You About This Steak</h1>
+          <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        </div>
+      </div>
+      <div class="imgs">
+        <img src="https://www.w3schools.com/w3images/sandwich.jpg" height="100%" width="100%">
+          <div class="content">
+           <h1>Cherries, interrupted</h1>
+           <p>Lorem ipsum text praesent tincidunt ipsum lipsum.What else?</p>
+         </div>
+       </div>
+      <div class="imgs">
+        <img src="https://www.w3schools.com/w3images/croissant.jpg" height="100%" width="100%">
+        <div class="content">
+           <h1>Once Again, Robust Wine and Vegetable Pasta</h1>
+           <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+         </div>
+       </div>
+     </div>
+       <div class="scroll">
+         <ul class="index">
+           <li>&laquo;</li>
+           <li>1</li>
+           <li>2</li>
+           <li>3</li>
+           <li>4</li>
+           <li>&raquo;</li>
+         </ul>
+       </div>
+   </div>
+   <hr>
+   <div class="about">
+     <h1>About Me, The Food Man</h1>
+     <img src="https://www.w3schools.com/w3images/chef.jpg">
+     <h2>I am Who I Am!</h2>
+     <h3><i>With Passion For Real, Good Food</i></h3>
+     <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+   </div>
+    <hr>
+    <footer>
+      <p><i>Made by Pihu with W3Schools</i></p>
+    </footer>
+
+   <script>
+   function do(){
+     document.getElementById("dropdown").addEventListener("click",action);
+   }
+     function action(){
+       document.getElementById("dropdowncontent").style.display="block";
+     }
+
+
+
+
+
+
+
+</script>
+  </body>
+</html>

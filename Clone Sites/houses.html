@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BR Architects</title>
+  </head>
+  <style media="screen">
+
+  .navbar{
+    position: fixed;
+    width:100%;
+    top:0px;
+    background-color:#EEEEEE;
+    z-index:1;
+
+  }
+.links{
+  display:flex;
+  list-style-type:none;
+  align-items:center;
+
+}
+.right{
+  position:absolute;
+  right:100px;
+  display:flex;
+  align-items:center;
+}
+.right li{
+  padding:10px 20px;
+}
+.front{
+  color:white;
+  text-align:center;
+  font-weight:20px;
+}
+.content{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.content strong{
+  background-color:grey;
+  padding:10px 10px;
+}
+.line{
+  background-color:grey;
+  width:100%;
+  height:1px;
+}
+.project1{
+  display:grid;
+  //border:2px solid red;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-column-gap:10px;
+}
+.item{
+  //border:2px solid black;
+  height:200px;
+  position:relative;
+}
+.imgtext{
+  position:absolute;
+  top:0px;
+ left:0px;
+ background-color:black;
+ color:white;
+ padding:10px;
+}
+.grid{
+  display:grid;
+  //border:2px solid red;
+
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-column-gap:10px;
+}
+.art{
+  //border:2px solid black;
+  height:200px;
+}
+.about{
+  height:500px;
+}
+.contact{
+  display:flex;
+  flex-direction:column;
+
+}
+.contact input{
+  padding:10px;
+  color:grey;
+  margin:5px;
+  text-align:center;
+}
+.contact button{
+  margin: 10px;
+  width:200px;
+  background-color:black;
+  color:white;
+  border:2px solid black;
+  border-radius:10px;
+  padding:10px;
+  cursor:pointer;
+}
+footer{
+  background-color:black;
+  text-align:center;
+  font-size:10px;
+  color:white;
+  padding:20px;
+
+}
+  </style>
+  <body>
+
+   <div class="navbar">
+
+    <ul class="links">
+      <li><strong>BR</strong>Architects</li>
+      <div class="right">
+      <li>Projects</li>
+      <li>About</li>
+      <li>Contact</li>
+      </div>
+    </ul>
+    </div>
+
+
+   <div class="front">
+       <img src="https://www.w3schools.com/w3images/architect.jpg">
+    <div class="content">
+      <h1><strong>BR</strong>Architects</h1>
+      </div>
+      </div>
+
+
+   <div class="projects">
+     <h1>PROJECTS</h1>
+     <div class="line"></div>
+     <br>
+
+    <div class="project1">
+      <div class="item">
+      <div class="imgtext">Summer House</div>
+      <img src="https://www.w3schools.com/w3images/house5.jpg" height="100%" width="100%">
+      </div>
+
+
+      <div class="item">
+      <div class="imgtext">Brick House</div>
+      <img src="https://www.w3schools.com/w3images/house2.jpg" height="100%" width="100%">
+      </div>
+
+      <div class="item">
+        <div class="imgtext">Renovated</div>
+        <img src="https://www.w3schools.com/w3images/house3.jpg" height="100%" width="100%">
+      </div>
+      </div>
+
+</div>
+
+   <section class="about">
+     <h1>ABOUT</h1>
+  <hr>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="grid">
+    <div class="art">
+    <img src="https://www.w3schools.com/w3images/team2.jpg" height="100%" width="100%">
+    <div class="info">
+   <h1> John Doe</h1>
+   <h2><i>CEO&Co-Founder</i></h2>
+  <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+  <button>CONTACT</<button>
+
+</div>
+
+    </div>
+    <div class="art">
+      <img src="https://www.w3schools.com/w3images/team2.jpg" height="100%" width="100%">
+      <div class="info">
+      <h1> John Doe</h1>
+      <h2><i>CEO&Co-Founder</i></h2>
+     <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+     <button>CONTACT</<button>
+       </div>
+</div>
+    <div class="art">
+      <img src="https://www.w3schools.com/w3images/team2.jpg" height="100%" width="100%">
+      <div class="info">
+      <h1> John Doe</h1>
+      <h2><i>CEO&Co-Founder</i></h2>
+     <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+     <button>CONTACT</<button>
+       </div>
+</div>
+    <div class="art">
+      <img src="https://www.w3schools.com/w3images/team2.jpg" height="100%" width="100%">
+      <div class="info">
+      <h1> John Doe</h1>
+      <h2><i>CEO&Co-Founder</i></h2>
+     <p> Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+     <button>CONTACT</<button>
+       </div>
+</div>
+    </div>
+</section>
+<br>
+  <section class="contact">
+    <h1>CONTACT</h1>
+    <div class="line"></div>
+    <p>Lets get in touch and talk about your next project.</p>
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="Subject">
+    <textarea name="name" rows="8" cols="80">Message</textarea>
+    <button>Send Message</button>
+
+</section>
+   <div class="end">
+     <img src="https://www.w3schools.com/w3images/map.jpg">
+    </div>
+    <footer>
+      <h1><i>Made by PIHU thru W3 w3schools</i></h1>
+      </footer>
+
+  </body>
+</html>
