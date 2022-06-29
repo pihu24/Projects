@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/e48d9e2006.js" crossorigin="anonymous"></script>
+  <title>Starbucks</title>
+</head>
+<style>
+    body{
+      margin:0px;
+      padding:0px;
+     height:100%;
+     font-family: 'Montserrat', sans-serif;
+    }
+    .head{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      overflow:hidden;
+      margin-top:0px;
+      background-color:white;
+      font-family: 'Montserrat', sans-serif;
+      height:100px;
+      font-size:1rem;
+      position:fixed;
+      top:0px;
+      width:100%;
+      z-index:2;
+    }
+    .right{
+      display:flex;
+    }
+    .head ul{
+      list-style-type:none;
+    }
+    .top{
+      display:flex;
+     align-items:center;
+    }
+    .top li{
+    padding:0 40px;
+    }
+    .top img{
+      height:100px;
+      width:120px;
+      margin:0px;
+    }
+    .right{
+      margin:50px;
+      align-items:center;
+    }
+    .right li{
+      padding:0 40px;
+    }
+    .strip{
+    z-index:3;
+     background-color: #1e3932;
+     height:50px;
+    font-family: 'Montserrat', sans-serif;
+    position:fixed;
+    width:100%;
+    top:100px;
+    }
+    .strip p{
+      margin:0px;
+     position:absolute;
+     top:20%;
+      padding:0px 330px;
+      color:white;
+      font-weight:bold;
+    }
+    .head button{
+       background-color:black;
+       color:white;
+       font-family: 'Montserrat', sans-serif;
+       padding:7px;
+      border-radius:20px;
+      width:100px;
+      margin:0px;
+    }
+    .hero{
+      background-image: url(https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png);
+        background-color: rgb(212, 233, 226);
+      background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+   height:800px;
+   position:relative;
+    }
+    .text{
+       position:absolute;
+       top:50%;
+       left:65px;
+    }
+    .text h2{
+      font-size:2rem;
+    }
+    .text button{
+      background-color:#008248;
+      color:white;
+      font-weight:bold;
+      font-family: 'Montserrat', sans-serif;
+      padding:10px;
+     border-radius:20px;
+     width:100px;
+     margin:0px;
+     border:2px solid #008248;
+    }
+    .text span{
+      text-decoration:underline;
+    }
+    .steps-explained{
+      display:flex;
+      align-items:center;
+
+      text-align:center;
+    }
+    .steps{
+      text-align:center;
+      padding:5%;
+      font-size:0.8rem;
+        background-color:white;
+    }
+    .step1{
+      margin:2%;
+    }
+    .steps h3{
+      font-weight: 500;
+    }
+    .steps i{
+      font-weight: bold;
+      font-size: 2rem;
+      color:#008248;
+      margin:2%;
+    }
+    .prices{
+      text-align:center;
+      padding:2% ;
+background-color:#f1f8f6;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
+    .prices ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin:0px;
+    }
+    .prices ul li{
+      padding:2.5%;
+      font-size: 1.6rem;
+      font-weight: bold;
+    }
+    .prices i{
+      font-size:1rem;
+      color:#FFC074;
+    }
+   .price-img{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: inset 0 7px 9px -7px rgb(0 0 0 / 14%);
+     background-color: #d4e9e2;
+     padding:3%;
+   }
+  .payment{
+    text-align: center;
+    padding:2%;
+    background-color: #f3f1e7;
+  }
+  .payment-star{
+    display:flex;
+  }
+  .dollar{
+    margin:3%;
+  }
+ .dollar1{
+   margin:3% 4%;
+ }
+ .dollar::before{
+   content:url("https://www.starbucks.com/weblx/images/rewards/ways-to-pay/1A.png");
+
+ }
+</style>
+<body>
+
+  <nav class="head">
+    <ul class="top">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROJ9ZLK98SFXh6-MrXikCLgpBBgmvb0MNGVcNGlonUZspW8YJDJ0YYrMrOfXJJbGUrW3s&usqp=CAU"></img>
+
+      <li>MENU</li>
+      <li>REWARDS</li>
+      <li>GIFT CARDS</li>
+    </ul>
+    <ul class="right">
+      <li>Find a store</li>
+      <li><button>Sign In</button></li>
+      <li><button>Join Now</button></li>
+    </ul>
+  </nav>
+  <div class="strip">
+    <p>STARBUCKS<sup>®</sup> REWARDS</p>
+  </div>
+  <div class="hero">
+    <div class="text">
+      <h2>FREE COFFEE
+      IS A TAP AWAY</h2>
+      <h3>Join now to start earning Rewards.</h3>
+      <button>Join Now</button>
+      <h3>Or <span>join in the app</span> for the best experience</h3>
+
+    </div>
+  </div>
+<!-- section2 -->
+  <div class="steps">
+      <h1>Getting started is easy</h1>
+      <h3>Earn Stars and get rewarded in a few easy steps.</h3>
+      <div class="steps-explained">
+        <div class="step1">
+        <i class="far fa-star"></i>
+      <h2> Create an account</h2>
+      <h3>To get started, join now. You can also join in the app to get access to the full range of Starbucks® Rewards benefits.
+</h3>
+      </div>
+      <div class="step1">
+      <i class="far fa-star"></i>
+    <h2>Order and pay how you’d like</h2>
+    <h3>Use cash, credit/debit card or save some time and pay right through the app. You’ll collect Stars all ways. Learn how
+</h3>
+    </div>
+    <div class="step1">
+    <i class="far fa-star"></i>
+  <h2>Earn Stars, get Rewards</h2>
+  <h3>As you earn Stars, you can redeem them for Rewards—like free food, drinks, and more. Start redeeming with as little as 25 Stars!
+</h3>
+  </div>
+</div>
+  </div>
+  <div class="prices">
+    <div class="price-star">
+    <h1>Get your favorites for free</h1>
+      <ul>
+        <li>25<i class="far fa-star"></i></li>
+        <li>50<i class="far fa-star"></i></li>
+        <li>150<i class="far fa-star"></i></li>
+        <li>200<i class="far fa-star"></i></li>
+        <li>400<i class="far fa-star"></i></li>
+      </ul>
+    </div>
+  </div>
+  <div class="price-img">
+    <img src="https://www.starbucks.com/weblx/images/rewards/reward-tiers/025.png" height="220px" width="400px">
+
+    </img>
+    <div class="text-price">
+      <h2>Customize your drink</h2>
+      <p>Make your drink just right with an extra espresso shot, dairy substitute or a dash of your favorite syrup.</p>
+    </div>
+  </div>
+
+
+  <div class="payment">
+    <h1>Cash or card, you earn Stars</h1>
+    <p>No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really delicious) Rewards.</p>
+    <div class="payment-star">
+      <div class="dollar">
+        <h2>1★ per dollar</h2>
+        <p>Pay as you go</p>
+
+      </div>
+      <div class="dollar1">
+        <h2>Scan and pay separately</h2>
+        <p>Use cash or credit/debit card at the register.</p>
+      </div>
+      <div class="dollar1">
+        <h2>Scan and pay separately</h2>
+        <p>Use cash or credit/debit card at the register.</p>
+      </div>
+
+    </div>
+      <hr></hr>
+    <div class="payment-star">
+      <div class="dollar">
+        <h2>2★ per dollar</h2>
+        <p>Pay as you go</p>
+
+      </div>
+      <div class="dollar1">
+        <h2>Scan and pay separately</h2>
+        <p>Use cash or credit/debit card at the register.</p>
+      </div>
+      <div class="dollar1">
+        <h2>Scan and pay separately</h2>
+        <p>Use cash or credit/debit card at the register.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
